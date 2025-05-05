@@ -20,7 +20,6 @@ const RootLayout = ({ children }: PropsWithChildren) => {
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           {children}
-          rootpage
         </ThemeProvider>
       </body>
     </html>
