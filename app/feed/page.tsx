@@ -19,7 +19,7 @@ const FeedPage = () => {
           }
 
           router.replace("/");
-        }}
+        }} className="cursor-pointer "
       >
         Log Out
       </Button>
